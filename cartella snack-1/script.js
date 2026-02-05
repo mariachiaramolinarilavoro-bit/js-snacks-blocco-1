@@ -29,4 +29,6 @@ if (firstNumber > secondNumber) {
   console.log("Il numero maggiore è:", firstNumber);
 } else if (secondNumber > firstNumber) {
   console.log("Il numero maggiore è:", secondNumber);
-} 
+} else {
+  console.log("I numeri sono uguali");
+}
