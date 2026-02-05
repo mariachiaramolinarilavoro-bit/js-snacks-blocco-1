@@ -5,7 +5,7 @@
 let sum = 0
 
 for (let i = 0; i < 10; i++){
-    let numbers = prompt ("Inserire un numero");
+    let numbers = Number(prompt ("Inserire un numero"));
     sum += numbers
 }
 
