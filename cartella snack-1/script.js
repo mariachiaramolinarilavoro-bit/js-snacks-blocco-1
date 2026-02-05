@@ -17,3 +17,10 @@ mandami messaggio qui con il link della repo quando hai fatto.
 
 // Snack 1
 // L’utente inserisce due numeri, il software stampa il maggiore
+
+let firstNumber = prompt("Inserire il primo numero");
+let secondNumber = prompt("Inserire il secondo numero");
+
+// Converto i valori in numeri
+firstNumber = Number(firstNumber);
+secondNumber = Number(secondNumber);
