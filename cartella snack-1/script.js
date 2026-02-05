@@ -24,3 +24,9 @@ let secondNumber = prompt("Inserire il secondo numero");
 // Converto i valori in numeri
 firstNumber = Number(firstNumber);
 secondNumber = Number(secondNumber);
+
+if (firstNumber > secondNumber) {
+  console.log("Il numero maggiore è:", firstNumber);
+} else if (secondNumber > firstNumber) {
+  console.log("Il numero maggiore è:", secondNumber);
+} 
